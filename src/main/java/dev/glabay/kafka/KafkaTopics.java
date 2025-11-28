@@ -16,6 +16,10 @@ public enum KafkaTopics {
     EMAIL_SEND_REQUEST("email-send-request"),
     EMAIL_SENT_ANALYTIC("email-sent-analytic"),
 
+    /// Invoicing
+    INVOICE_CREATED("invoice-created"),
+    INVOICE_PAID("invoice-paid"),
+
     /// Analytic Services below
     SERVICE_TICKET_CREATED("service-ticket-created"),
     SERVICE_TICKET_CLAIMED("service-ticket-claimed"),
