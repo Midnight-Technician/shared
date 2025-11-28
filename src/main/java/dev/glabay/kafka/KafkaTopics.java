@@ -19,6 +19,7 @@ public enum KafkaTopics {
     /// Invoicing
     INVOICE_CREATED("invoice-created"),
     INVOICE_PAID("invoice-paid"),
+    INVOICE_TICKET_CLOSED("invoice-ticket-closed"),
 
     /// Analytic Services below
     SERVICE_TICKET_CREATED("service-ticket-created"),
